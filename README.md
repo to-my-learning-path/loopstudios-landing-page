@@ -17,9 +17,9 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ### Screenshot
 
-<!-- ![Desktop View](./screenshot/screenshot_1.png)
-![Desktop View with Hover](./screenshot/screenshot_2.png)
-![Mobile View](./screenshot/screenshot_3.png) -->
+![Desktop View](./screenshot/screenshot_1.png)
+![Desktop View with Hover](./screenshot/screenshot_3.png)
+![Mobile View](./screenshot/screenshot_4.png)
 
 ### Links
 
