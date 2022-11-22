@@ -336,6 +336,10 @@ ul > li > a:hover::after {
     padding-bottom: 10rem;
   }
 
+  .about {
+    margin-top: 5rem;
+  }
+
   .primary-navigation[data-visible="true"] {
     top: -150px;
   }
