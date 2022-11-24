@@ -18,7 +18,7 @@
     <header>
       <div class="container">
         <div class="banner">
-          <img src="./images/logo.svg" alt="Loop Studios Logo" />
+          <img class="logo" src="./images/logo.svg" alt="Loop Studios Logo" />
           <nav
             class="primary-navigation"
             id="primary-navigation"
@@ -65,13 +65,15 @@
           </button>
         </div>
         <div class="hero">
-          <h1>Immersive experiences that deliver</h1>
+          <div class="hero__title">
+            <h1>Immersive experiences that deliver</h1>
+          </div>
         </div>
       </div>
     </header>
     <main>
-      <section class="about">
-        <div class="container">
+      <div class="container">
+        <section class="about">
           <picture>
             <source
               srcset="./images/desktop/image-interactive.jpg"
@@ -92,10 +94,8 @@
               through digital experiences that bind to their brand.
             </p>
           </div>
-        </div>
-      </section>
-      <section class="creation">
-        <div class="container">
+        </section>
+        <section class="creation">
           <div class="creation__header">
             <h2>Our Creations</h2>
             <a
@@ -118,7 +118,11 @@
                   alt=""
                 />
               </picture>
-              <p>Deep earth</p>
+              <div class="creation__item-title">
+                <p>Deep</p>
+                <p></p>
+                <p>earth</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -132,7 +136,10 @@
                   alt=""
                 />
               </picture>
-              <p>Night arcade</p>
+              <div class="creation__item-title">
+                <p>Night</p>
+                <p>arcade</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -146,7 +153,10 @@
                   alt=""
                 />
               </picture>
-              <p>Soccer team VR</p>
+              <div class="creation__item-title">
+                <p>Soccer</p>
+                <p>team VR</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -160,7 +170,10 @@
                   alt=""
                 />
               </picture>
-              <p>The grid</p>
+              <div class="creation__item-title">
+                <p>The</p>
+                <p>grid</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -174,7 +187,10 @@
                   alt=""
                 />
               </picture>
-              <p>From up above VR</p>
+              <div class="creation__item-title">
+                <p>From up</p>
+                <p>above VR</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -188,7 +204,10 @@
                   alt=""
                 />
               </picture>
-              <p>Pocket borealis</p>
+              <div class="creation__item-title">
+                <p>Pocket</p>
+                <p>borealis</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -202,7 +221,10 @@
                   alt=""
                 />
               </picture>
-              <p>The curiosity</p>
+              <div class="creation__item-title">
+                <p>The</p>
+                <p>curiosity</p>
+              </div>
             </div>
             <div class="creation__item">
               <picture>
@@ -216,7 +238,10 @@
                   alt=""
                 />
               </picture>
-              <p>Make it fisheye</p>
+              <div class="creation__item-title">
+                <p>Make it</p>
+                <p>fisheye</p>
+              </div>
             </div>
             <a
               href="#"
@@ -225,14 +250,14 @@
               >See All</a
             >
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <footer>
       <div class="container">
         <div class="footer__utility">
           <img class="logo" src="./images/logo.svg" alt="Loop Studios Logo" />
-          <nav class="footer-navigation" aria-label="Footer Navigation">
+          <nav class="footer__navigation" aria-label="Footer Navigation">
             <ul>
               <li><a href="#" aria-label="Read more about us">About</a></li>
               <li>
